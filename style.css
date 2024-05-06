@@ -83,7 +83,7 @@ div.container svg{
 
 div.container div{
     margin-top: 10px;
-    margin-left: 50px;
+    margin-left: 90px;
 }
 
 #hamburger {
@@ -110,7 +110,10 @@ div.container div{
         top: 40%;
         left: 15%;
         color: white;
-        
+    }
+
+    div.container div{
+        margin-left: 65px;
     }
 
     div.container h1{

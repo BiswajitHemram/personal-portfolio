@@ -37,7 +37,7 @@
         </nav>
         <div class="container">
             <h1>Biswajit Hemram</h1>
-            <p>I'm a Developer</p>
+            <p>I'm a <span id="auto-type">Developer</span></p>
             <div>
                 <a href="https://github.com/BiswajitHemram" target="_blank">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48px" height="48px">
@@ -74,6 +74,17 @@
     <!-- Projects Section -->
     <!-- Eduction Section -->
     <!-- Contact Section -->
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js">
+    </script>
+    <script>
+        let typed = new Typed('#auto-type', {
+            strings: ['Developer', 'Student', 'Coder'],
+            typeSpeed: 50,
+            backSpeed: 50,
+            loop: true
+        });
+    </script>
 </body>
 
 </html>
