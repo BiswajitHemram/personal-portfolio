@@ -90,6 +90,51 @@ div.container div{
     display: none;
 }
 
+/* about me section */
+#about-me{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#about-me h1{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+#about-me .description-about-me{
+    width: 80%;
+    font-size: 18px;
+    letter-spacing: 0.1rem;
+}
+
+#about-me .description-highlighter{
+    font-family: "Sedan SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: whitesmoke;
+    /* font-weight: bold; */
+}
+
+#about-me .description-title{
+    font-weight: 900;
+    font-size: 20px;
+    color: whitesmoke;
+    text-decoration: underline rgb(5, 243, 5);
+}
+
+#about-me .description-end-line{
+    font-family: "Sedan SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: whitesmoke;
+
+}
+
 /* media query */
 @media screen and (max-width: 425px) {
     /* home page section */
