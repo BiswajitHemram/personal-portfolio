@@ -30,11 +30,11 @@ To run this project locally, follow these steps:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/BiswajitHemram/portfolio.git
+    git clone git@github.com:BiswajitHemram/personal-portfolio.git
     ```
 2. Navigate to the project directory:
     ```bash
-    cd portfolio
+    cd personal-portfolio
     ```
 3. Open the `index.html` file in your preferred browser.
 
